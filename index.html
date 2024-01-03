@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   .img-hover:hover img{
+	transform:scale(1.15);
+  transition: 2s;
+}
+
+.img-hover{
+  overflow:hidden;
+}
+  </style>
+</head>
+
+<body>
+  <!-- html usage test -->
+  <div class="header bg-img mb-5 container-fluid "
+    style="background: url(BG-picture/morphing-bg.jpg) no-repeat center center/cover;">
+    <nav class="navbar navbar-expand-lg navbar-expand-sm bg-transparent sticky-top gap-5">
+
+      <a class="navbar-brand text-white" href="#">Soft Landing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarText">
+        <ul class=" navbar-nav me-auto mb-2 mb-lg-0 gap-lg-5">
+          <li class="nav-item ">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#Features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#About-Us-sec">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#pricing-sec">Pricing</a>
+          </li>
+        </ul>
+        <span class="navbar-text text-white ">
+          Say hello-info@soft.com
+        </span>
+      </div>
+    </nav>
+
+    <div class="d-flex flex-column align-bottom justify-content-center group-margin"
+      style="padding-bottom: 25%; padding-top: 20%;">
+      <div class="p-group">
+        <p class="text-white fs-sm-1 text-center text-lowercase">PROFESSIONAL LANDING PAGE</p>
+        <p class="text-white text-center text-uppercase">We Help You manage yourbr <br> Website succesfully!</p>
+      </div>
+      <div class=" d-flex" style=" align-items: center; width: 25%; margin: auto;">
+        <input type="email" class="form-control rounded-start-pill" placeholder="Enter your email "
+          aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary bg-success text-white rounded-5" type="button" id="button-addon2"
+          style="margin: -80px;">Get
+          started</button>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="Features" class=" section-1 container ">
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="h4 mb-3"> What you get</p>
+        <ul class="nav nav-underline  mb-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Responsive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Mobile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Support</a>
+          </li>
+        </ul>
+        <h5 class="">Minimal Design</H5>
+        <P class="text-lowercase">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur quasi dolor
+          culpa vel amet ipsum sequi nobis nostrum beatae aut nihil, obcaecati repudiandae, corporis pariatur?</P>
+        <h5>Easy To Use</h5>
+        <p class="text-lowercase">Lorem ipsum dolor . Ipsamtis optio quam doloremque earum, fugit ab iusto natus
+          voluptates quia minima. Ducilaboriosam!</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="BG-picture/2ng-page.jpg" class="img-fluid " alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="About-Us-sec" class=" container card-section-2 bg-light" style="height: 100%; ">
+    <div class="container">
+
+      <h2 class="text-center pt-5">Profesional Team for you</h2>
+
+      <div class="d-flex justify-content-center" style="padding-top: 5%; padding-bottom: 10%;">
+        <div class="row card-group  justify-content-center gx-0 ">
+          <div class=" col-lg-4">
+            <div class="card   border-0 img-hover" style="width: 18rem;">
+              <img src="BG-picture/author-1.jpg " class="card-img-top " alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Andrew Orgausmg</h5>
+                <p class="card-text">Art Director.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updatedas a natural lead-in to additional
+                    content. This content is a little 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 ">
+            <div class="card  border-0 img-hover" style="width: 18rem; ">
+              <div class="card-body">
+                <h5 class="card-title">Jhon deen</h5>
+                <p class="card-text">senior manager.</p>
+                <p class="card-text"><small class="text-body-secondary">Last lead-in to additional content. This content
+                    is
+                    a little 3 minupdated 3 mins ago</small></p>
+              </div>
+              <img src="BG-picture/author-2.jpg" class="card-img-bottom" alt="...">
+            </div>
+          </div>
+          <div class=" col-lg-4">
+            <div class="card  border-0 img-hover" style="width: 18rem;">
+              <img src="BG-picture/author-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jak and Jons</h5>
+                <p class="card-text">CEO / Founder.</p>
+                <p class="card-text"><small class="text-body-secondary">Lastlead-in to additional content. This content
+                    is
+                    a
+                    little 3 min updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section-3 container" style="height: 100%;">
+    <div class="row second gx-0 pt-5 pb-5">
+      <div class="col-lg-6">
+        <img src="BG-picture/talking-about-project.jpg" class="img-fluid" alt="" style="width: 100%; height: 100%;">
+      </div>
+      <div class="col-lg-6  " style="height: 60%; ">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators pb-5">
+            <input type="radio" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-success"
+              aria-current="true" aria-label="Slide 1">
+            <input type="radio" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
+              class="bg-success ">
+            <input type="radio" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"
+              class="bg-success ">
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="BG-picture/black-Capture.PNG" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block pb-5">
+                <h5 class="text-white " style=" margin-bottom: 10%; text-align: left;">What People Say</h5>
+                <p class="text-white pb-5" style="  text-align: left;">Some representative Lorem ipsum
+                  dolor
+                  sit amet, consectetur adipisicing elit. Esse fugiat exercitationem maiores ut, tempore alias
+                  repudiandae
+                  omnis unde ab, similique eos pariatur velit eum fuga delectus expedita. placeholder content for the
+                  third slide.</p>
+                <div class="d-flex pb-5">
+                  <img src="BG-picture/rounded-bronde-bob.jpg" class="rounded-circle" alt="..." style="width: 50px;">
+                  <p class="text-white mt-2 ms-1">sofia</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="BG-picture/black-Capture.PNG" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block pb-5">
+                <h5 class="text-white " style=" margin-bottom: 10%; text-align: left;">What People Say</h5>
+                <p class="text-white pb-5" style="  text-align: left;">Some representative Lorem ipsum
+                  dolor
+                  sit amet, consectetur adipisicing elit. Esse fugiat exercitationem maiores ut, tempore alias
+                  repudiandae
+                  omnis unde ab, similique eos pariatur velit eum fuga delectus expedita. placeholder content for the
+                  third slide.</p>
+                <div class="d-flex pb-5">
+                  <img src="BG-picture/rounded-bronde-bob.jpg" class="rounded-circle" alt="..." style="width: 50px;">
+                  <p class="text-white mt-2 ms-1">sofia</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="BG-picture/black-Capture.PNG" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block pb-5">
+                <h5 class="text-white " style=" margin-bottom: 10%; text-align: left;">What People Say</h5>
+                <p class="text-white pb-5" style="  text-align: left;">Some representative Lorem ipsum
+                  dolor
+                  sit amet, consectetur adipisicing elit. Esse fugiat exercitationem maiores ut, tempore alias
+                  repudiandae
+                  omnis unde ab, similique eos pariatur velit eum fuga delectus expedita. placeholder content for the
+                  third slide.</p>
+                <div class="d-flex pb-5">
+                  <img src="BG-picture/rounded-bronde-bob.jpg" class="rounded-circle" alt="..." style="width: 50px;">
+                  <p class="text-white mt-2 ms-1">sofia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class=" container section-4 bg-light  " id="pricing-sec" style="height: 100%;">
+    <div class=" sec-4 container  " style="padding-top: 5%; padding-bottom: 5%;">
+      <h1 class=" mt-lg-5 mb-5" style="text-align: center;">Chose any plan</h1>
+      <div class="row gx-0 " style="margin:  center;">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="card-title">Special title treatment</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">20 Responsive Design</p>
+              <p class="card-text">10 Dashboard</p>
+              <p class="card-text">1 TB Storage</p>
+              <p class="card-text">6 TB Bandwidth</p>
+              <p class="card-text">24-hour Support</p>
+            </div>
+            <hr class="border border-1 bg-secondary w-75 mx-lg-auto">
+            <div class=" card-body d-flex justify-content-between mb-3 mt-2">
+              <p class="fw-bold">$550/mo</p>
+              <a href="#" class="btn btn-primary bg-success rounded-5">Register Now</a>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="card-title">Special title treatment</h5>
+            </div>
+            <div class="card-body ">
+              <p class="card-text">50 Responsive Design</p>
+              <p class="card-text">00 Dashboard</p>
+              <p class="card-text">10 TB Storage</p>
+              <p class="card-text">600 TB Bandwidth</p>
+              <p class="card-text">24-hour Support</p>
+            </div>
+            <hr class="border border-1 bg-secondary w-75 mx-lg-auto">
+            <div class=" card-body d-flex justify-content-between mb-3 mt-2">
+              <p class="fw-bold">$850/mo</p>
+              <a href="#" class="btn btn-primary bg-success rounded-5">Register Now</a>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="card-title">Special title treatment</h5>
+            </div>
+            <div class="card-body ">
+              <p class="card-text">200 Responsive Design</p>
+              <p class="card-text">100 Dashboard</p>
+              <p class="card-text">10 TB Storage</p>
+              <p class="card-text">60 TB Bandwidth</p>
+              <p class="card-text">24-hour Support</p>
+            </div>
+            <hr class="border border-1 bg-secondary w-75 text-center  mx-lg-auto">
+            <div class=" card-body d-flex justify-content-between mb-3 mt-2">
+              <p class="fw-bold">$999/mo</p>
+              <a href="#" class="btn btn-primary bg-success rounded-5">Register Now</a>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="form section container" style="height: 100vh; width: 100vw;">
+    <div class="form-section  " style="padding-top: 10%;">
+      <div class="row">
+        <div class="col-md-4">
+          <input class="" type="text" id="" placeholder="First Name" style=" border: none;
+          outline: none;
+          border-bottom: 1px solid #ccc; width: 100%;">
+        </div>
+        <div class="col-md-4">
+          <input class="form-control border-bottom" type="email" placeholder="Email address" style=" border: none;
+          outline: none;
+          border-bottom: 1px solid #ccc; width: 100%;">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-primary bg-dark rounded-5 w-100 " type="button">Send Massage</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="">
+          <label for="ror-massage">Write Massage</label>
+          <textarea class=" form-control " id="ror-massage" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer class=" container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6">
+        copyright &copy; 2024. Deasign by <strong class="fw-bold">Maruf</strong>
+      </div>
+      <div class="col-md-6 d-flex justify-content-evenly">
+        <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram text-danger"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+
+
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
